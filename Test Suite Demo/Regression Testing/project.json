@@ -1,0 +1,62 @@
+{
+  "name": "Regression Testing",
+  "description": "Test Automation Project - Acme Systems",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.9.0-preview]",
+    "UiPath.System.Activities": "[20.6.1-preview]",
+    "UiPath.Testing.Activities": "[1.1.1-preview]",
+    "UiPath.UIAutomation.Activities": "[20.6.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.6.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "af2bbc0c-40a3-4f91-82d2-626fd1e25cd3",
+        "fileName": "Registration Failed.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "11ce9719-e63c-42e6-9d6c-7efa7d6855ef",
+        "fileName": "Registration Successfull.xaml"
+      }
+    ]
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Registration Failed.xaml",
+      "uniqueId": "af2bbc0c-40a3-4f91-82d2-626fd1e25cd3",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Registration Successfull.xaml",
+      "uniqueId": "11ce9719-e63c-42e6-9d6c-7efa7d6855ef",
+      "input": [],
+      "output": []
+    }
+  ]
+}

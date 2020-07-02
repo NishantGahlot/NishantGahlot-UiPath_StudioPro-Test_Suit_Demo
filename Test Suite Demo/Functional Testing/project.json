@@ -1,0 +1,84 @@
+{
+  "name": "Functional Testing",
+  "description": "Test Automation Project - Acme Systems",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.9.0-preview]",
+    "UiPath.System.Activities": "[20.6.1-preview]",
+    "UiPath.Testing.Activities": "[1.1.1-preview]",
+    "UiPath.UIAutomation.Activities": "[20.6.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.6.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "fe3547c1-86a0-4c87-b869-3f172d1f832f",
+        "fileName": "Registration Failed - Passwords Mismatch.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "dac84667-0cc5-4be8-8e93-262f97444ec7",
+        "fileName": "Registration Failed - Terms of Use Not Checked.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "53dc891e-0c51-4c1e-aa2e-65efbe66fe8e",
+        "fileName": "Registration Failed - User Already Registered.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "26937c88-c77f-49c2-8892-ec6417c02a01",
+        "fileName": "Registration Successfull.xaml"
+      }
+    ]
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Registration Failed - Passwords Mismatch.xaml",
+      "uniqueId": "fe3547c1-86a0-4c87-b869-3f172d1f832f",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Registration Failed - Terms of Use Not Checked.xaml",
+      "uniqueId": "dac84667-0cc5-4be8-8e93-262f97444ec7",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Registration Failed - User Already Registered.xaml",
+      "uniqueId": "53dc891e-0c51-4c1e-aa2e-65efbe66fe8e",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Registration Successfull.xaml",
+      "uniqueId": "26937c88-c77f-49c2-8892-ec6417c02a01",
+      "input": [],
+      "output": []
+    }
+  ]
+}
